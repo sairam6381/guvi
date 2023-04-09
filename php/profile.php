@@ -3,7 +3,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
 header("Access-Control-Allow-Headers: X-Requested-With");
 require 'vendor/autoload.php';
-$client = new MongoDB\Client("mongodb+srv://sairam6381:sairam@cluster.utrad1a.mongodb.net/");
+$client = new MongoDB\Client("mongodb://localhost:27017");
 $collection=$client->guvi->userdata;
 
 $functionName=$_POST['functionName'];
