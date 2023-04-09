@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/profile.js"></script>
+  </head>
+  <body class="bg-primary bg-opacity-25">
+    <section>
+      <div class="d-flex flex-column min-vh-100 justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-10 mx-auto bg-white rounded shadow">
+              <div class="row">
+                <div class="m-5 text-center"><h1>Profile</h1></div>
+                <div class="col-md-6">
+                  <div class="text-center">
+                    <img
+                      src="asserts/profile.jpg"
+                      alt="login"
+                      class="center-block"
+                      width="200px"
+                      ,
+                      height="mx-auto"
+                    />
+                    <p id="uname"></p>
+                  </div>
+                  <form class="m-5">
+                    <div class="row mb-1">
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label class="form-label" for="fname"
+                            >First Name</label
+                          >
+                          <input
+                            class="form-control"
+                            type="text"
+                            id="fname"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label class="form-label" for="lname"
+                            >Last Name</label
+                          >
+                          <input
+                            class="form-control"
+                            type="text"
+                            id="lname"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label" for="gender">Gender</label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                        id="gender"
+                      >
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                      </select>
+                    </div>
+
+                    <div class="col-6">
+                      <pre></pre>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-md-6">
+                  <form class="m-5" action="edit_profile.html">
+                    <div class="mb-3">
+                      <label class="form-label" for="email">Email</label>
+                      <input class="form-control" type="text" id="email" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label" for="number"
+                        >Mobile Number</label
+                      >
+                      <input class="form-control" type="text" id="number" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label" for="number"
+                        >Date of Birth:</label
+                      >
+                      <input class="form-control" type="date" id="dob" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label" for="age">Age</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="age"
+                        readonly
+                      />
+                    </div>
+                    <pre></pre>
+                    <!-- <div class="">
+                      <input
+                        type="submit"
+                        value="Edit"
+                        class="form-control btn btn-primary mt-3"
+                      />
+                    </div> -->
+                    <div class="row mb-1">
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <input
+                            id="edit"
+                            type="button"
+                            value="Update"
+                            class="form-control btn btn-primary mt-3"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <input
+                            id="logout"
+                            type="button"
+                            value="Logout"
+                            class="form-control btn btn-primary mt-3"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
