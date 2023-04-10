@@ -56,4 +56,33 @@ The profile page displays the user's profile information, including their age, f
 -   User profile page using MongoDB.
 -   Session management using Redis.
 
+<br><br>
+
+# Sample Screenshots
+
+### Login Page (Navigate to Login and Register)
+![login](https://user-images.githubusercontent.com/86945018/230824175-f9b7e4a3-eaac-459f-b227-ae0bcc417462.png)
+
+
+### Login Page (login with username and password)
+![login](https://user-images.githubusercontent.com/86945018/230823734-882605fc-3de6-4b85-9ea2-66747f447f3f.png)
+
+
+### Register Page (Create account )
+
+![register](https://user-images.githubusercontent.com/86945018/230824000-0c767c62-381b-45a0-8413-2a1410be3c7e.png)
+
+
+### Profile Page (Update your Profile)
+
+![profile](https://user-images.githubusercontent.com/86945018/230824130-ff77b783-4b3f-4e04-ad4d-79adec325852.png)
+
+
+### Redis (Login session will be expired after 30mins)
+
+![image](https://user-images.githubusercontent.com/86945018/230824481-ae326efd-a1db-4c25-adf2-adabcb2a1713.png)
+
+
+
+
 
