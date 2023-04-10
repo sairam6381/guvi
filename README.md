@@ -60,8 +60,9 @@ The profile page displays the user's profile information, including their age, f
 
 # Sample Screenshots
 
-### Login Page (Navigate to Login and Register)
-![login](https://user-images.githubusercontent.com/86945018/230824175-f9b7e4a3-eaac-459f-b227-ae0bcc417462.png)
+
+### Index Page (Navigate to Login and Register)
+![index](https://user-images.githubusercontent.com/86945018/230827096-04ba7253-b13c-4dbd-b5bc-448eb92a594e.png)
 
 
 ### Login Page (login with username and password)
